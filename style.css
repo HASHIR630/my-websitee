@@ -1,0 +1,352 @@
+*{
+    /* width: 100%; */
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 0px;
+  
+}
+.navbar{
+    background-color: rgb(155, 68, 33);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    @media (max-width:600px){
+        background-color:black ;
+    }
+    @media (min-width :400px) and (max-width :700px){
+        background-color: yellow;
+        font-size: 20px;
+    }
+}
+
+.nav-logo{
+    height: 60px;
+    width: 100px;
+    /* position: relative;
+    top: 0px; */
+    bottom: 50px;
+    
+}
+.logo{
+ background-image: url(images\ \(1\).png);
+ height: 60px;
+ width: 130px;
+ background-size: cover;
+
+}
+.nav-content{
+
+   line-height: 9px;
+   cursor: pointer;
+}
+.para1{
+    font-size: 16px;
+    color: #f8f8f8;
+    font-weight: 600;
+    
+}
+.para2{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.add-icon {
+    display: flex;
+    justify-content: center;
+
+   
+}
+.add-icon i{
+
+margin-right: 5px;
+
+   
+}
+.border{
+    border: 3px solid transparent;
+}
+.border:hover{
+    border: 2px solid rgb(228, 215, 215);
+    border-style: groove;
+    
+}
+.nav-search{
+display: flex;
+border-radius: 5px;
+
+
+}
+.search-input{
+    height: 65px;
+    width: 550px;
+    border: none;
+    font-size: 18px;
+
+
+
+}
+.search-select{
+    height: 65px;
+    width: 65px;
+    border: none;
+    font-size: 16px;
+    background-color: beige;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-weight: 500;
+}
+.add-icon2{
+    height: 67px;
+    width: 65px;
+    background-color: rgb(17, 1, 19);
+    color: gainsboro;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2.5px;
+    border-bottom-right-radius: 2.5px;
+
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.order{
+    line-height: 10px;
+    cursor: pointer;
+}
+.Delivery{
+    line-height: 10px;
+    cursor: pointer;
+}
+.para3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.para4{
+    font-size: 15px;
+font-weight: 500;
+color:white;
+
+}
+.cart i{
+    font-size: 30px;
+
+}
+.cart{
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+@keyframes next {
+    to{ background-image: url(download\ \(2\).jfif);
+        height: 500px;
+        background-size: contain;
+    }
+    from{ background-image: url(asner1.jfif);
+        height: 500px;
+        background-size: cover;
+    }
+}
+.add-img{
+    background-image: url(download\ \(2\).jfif);
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    /* animation-name: next; */
+    animation-name: next;
+    animation-duration:20s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.shop-panal{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 15px; */
+    background-color: rgb(43, 190, 196);
+    flex-wrap: wrap;
+}
+.box{
+    height: 380px;
+    /* border: 3px solid black; */
+    width: 23%;
+    background-color: rgb(43, 190, 196);
+    margin-top: 20px;
+   
+}
+.add-imgg{
+    height: 280px;
+   
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.para5{
+    color: #085a6d;
+    font-weight: 810;
+    cursor: pointer;
+    position: relative;
+bottom: 25px;
+}
+h2{
+    cursor: pointer;
+    color:rgb(92, 29, 21);
+}
+.panal{
+    height: 50px;
+    background-color: rgb(184, 218, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(31, 2, 2);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: not-allowed;
+}
+.big-panal{
+    height: 610px;
+    background-color: rgb(13, 4, 46);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ .big-panal a {
+    display:block ;
+    margin-top: 20px;
+
+}
+.has{
+    font-weight: 700;
+    font-size: 22px;
+}
+.social{
+    position: relative;
+    top: 350px;
+    right: 600px;
+}
+.end{
+    background-color: rgb(13, 128, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 40px;
+    width: 40px;
+    border: 4px solid black;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 0.98s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    cursor:not-allowed;
+}
+@keyframes spin {
+    0%{background-color: rgb(116, 155, 155);}
+    30%{background-color: rgb(10, 2, 0);}
+    50%{background-color: orange;}
+    90%{background-color: blue;}
+    100%{background-color: aqua;}
+
+}
+.len{
+    height: 20px;
+    width: 20px;
+    border: 10px solid rgb(87, 230, 235);
+    border-top: 10px solid rgb(6, 70, 75);
+    /* border-bottom: 10px solid rgb(99, 101, 175); */
+    border-radius: 50%;
+animation-name: spinn;
+animation-duration: 1s;
+animation-delay: 0s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+  cursor: progress;
+}
+
+@keyframes spinn {
+    to{
+        transform: rotate(0deg);
+    }
+    from{transform: rotate(360deg);}
+}
+.lend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.hasd{
+    font-weight: 900;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    cursor:progress;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.malik{
+    color: #18c712;
+    
+}
+
+/* body{
+    cursor: wait;
+} */
+ .barder:hover{
+    border: 2px solid lightblue;
+ }
+ .borderr:hover{
+    border: 2px double green; 
+ }
+ .para5:active{
+    border: 2px solid white;
+ }
+ /* a {
+    color: #e1e1eb;
+    text-decoration: none;
+  } */
+  
+  /* a::before {
+    content: '🔗';
+  } */
+  .add-imgg:matches(){
+    background-image: url(unidia.jfif);
+    height: 400px;
+    width: 23%;
+    background-size: auto;
+  }
+textarea{
+    font-size: 20px;
+    font-weight: 800;
+    /* border: none; */
+    border-radius:15px;
+    text-align: center;
+    background-color: rgb(196, 196, 168);
+    color: #085a6d;
+}
+button{
+    font-size: 90px;
+}
+  
+  
+  
